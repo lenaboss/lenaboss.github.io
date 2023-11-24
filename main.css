@@ -1,0 +1,86 @@
+/*background colour
+
+body{
+
+background-image: url('images/background.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+*/
+/*headers + text*/
+
+p{
+  color: #58B0E0;
+}
+
+h{
+
+    font-size: 35px;
+
+    color: #58B0E0;
+
+}
+
+h2{
+
+    font-size: 30px;
+
+    color: #58B0E0;
+
+}
+
+/*side to side images*/
+
+* {
+
+    box-sizing: border-box;
+
+  }
+
+  
+
+  .column {
+
+    float: left;
+
+    width: 33.33%;
+
+    padding: 5px;
+
+  }
+
+  
+
+  .row::after {
+
+    content: "";
+
+    clear: both;
+
+    display: table;
+
+  }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+/*IDEAS
+- Dark mode/Light mode
+- Contact
+- More relaxing background*/
