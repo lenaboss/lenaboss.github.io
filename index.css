@@ -1,4 +1,4 @@
-/*background colour
+/*background colour*/
 
 body{
 
@@ -7,7 +7,6 @@ background-image: url('images/background.gif');
   background-attachment: fixed; 
   background-size: 100% 100%;
 }
-*/
 /*headers + text*/
 
 p{
@@ -76,10 +75,6 @@ img:hover {
   opacity: 1.0;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
-}
 /*IDEAS
 - Dark mode/Light mode
 - Contact
